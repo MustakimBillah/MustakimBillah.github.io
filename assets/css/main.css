@@ -3487,14 +3487,14 @@ body.is-preload #header.alt {
 }
 
 #banner:after {
-  -moz-transition: opacity 2.5s ease;
-  -webkit-transition: opacity 2.5s ease;
-  -ms-transition: opacity 2.5s ease;
-  transition: opacity 2.5s ease;
-  -moz-transition-delay: 0.75s;
-  -webkit-transition-delay: 0.75s;
-  -ms-transition-delay: 0.75s;
-  transition-delay: 0.75s;
+  -moz-transition: opacity 0s ease;
+  -webkit-transition: opacity 0s ease;
+  -ms-transition: opacity 0s ease;
+  transition: opacity 0s ease;
+  -moz-transition-delay: 0s;
+  -webkit-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  transition-delay: 0s;
   pointer-events: none;
   background-color: #242943;
   content: "";
