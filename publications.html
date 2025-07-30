@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Research Publications</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <!-- Note: The "styleN" class below should match that of the banner element. -->
+      <header id="header" class="alt style2">
+        <a href="index.html" class="logo">
+          <span><strong>Home</strong></span></a
+        >
+
+      <span><strong>Research Publications</strong></span>
+
+        <nav>
+							<a href="#menu">Menu</a>
+				</nav>
+      </header>
+
+      <!-- Menu -->
+      <nav id="menu">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="awards.html">Awards</a></li>
+          <li><a href="leadership.html">Leadership</a></li>
+        </ul>
+        <!-- <ul class="actions stacked">
+          <li><a href="#" class="button primary fit">Get Started</a></li>
+          <li><a href="#" class="button fit">Log In</a></li>
+        </ul> -->
+      </nav>
+ 
+      <!-- Banner -->
+      <!-- Note: The "styleN" class below should match that of the header element. -->
+      <!-- <section id="banner" class="major">
+        <div class="inner">
+          <h1>Educational Background</h1>
+        </div>
+        <div class="inner">
+            <header class="major">
+              <h2>University of Saskatchewan (USASK)</h2>
+            </header>
+            <p>
+              Corona project from a2i which is started to help the Government to tackle with the pandemic.
+              Here data from all possible sources come such as from mobile operators, from 333, from 16263, Uber_Doctor,
+              High risk and low risk data from doctors, infected_person data and their mobility and many more confidential
+              data. We use this data to detect risky patients and areas across the country by running optimized queries and
+              plotting them on various visualization tools.
+            </p>
+          </div>
+          <div class="inner">
+            <header class="major">
+              <h2>University of Saskatchewan (USASK)</h2>
+            </header>
+            <p>
+              Corona project from a2i which is started to help the Government to tackle with the pandemic.
+              Here data from all possible sources come such as from mobile operators, from 333, from 16263, Uber_Doctor,
+              High risk and low risk data from doctors, infected_person data and their mobility and many more confidential
+              data. We use this data to detect risky patients and areas across the country by running optimized queries and
+              plotting them on various visualization tools.
+            </p>
+          </div>
+      </section> -->
+
+      <!-- Main -->
+      <div id="main">
+
+        <section id="one">
+          <div class="inner">
+            <header class="major">
+              <h3>Do Automatic Comment Generation Techniques Fall Short? <br /> Exploringthe Influence of Method Dependencies on Code Understanding</h3>
+              <h4>Published in <a href="https://conf.researchr.org/home/ease-2025" target="_blank">EASE 2025</a> (A Category Conference)</h4>
+              <h5>Paper Link: <a href="https://arxiv.org/abs/2504.19459" target="_blank">https://arxiv.org/abs/2504.19459</a></h5>
+            </header>
+            <p>
+              Method-level comments are critical for improving code comprehension and supporting software maintenance. With advancements in large language models (LLMs), automated comment generation has become a major research focus. However, existing approaches often overlook method dependencies, where one method relies on or calls others, affecting comment quality and code understandability. This study investigates the prevalence and impact of dependent methods in software projects and introduces a dependency-aware approach for method-level comment generation. Analyzing a dataset of 10 popular Java GitHub projects, we found that dependent methods account for 69.25% of all methods and exhibit higher engagement and change proneness compared to independent methods. Across 448K dependent and 199K independent methods, we observed that state-of-the-art fine-tuned models (e.g., CodeT5+, CodeBERT) struggle to generate comprehensive comments for dependent methods, a trend also reflected in LLM-based approaches like ASAP. To address this, we propose HelpCOM, a novel dependency-aware technique that incorporates helper method information to improve comment clarity, comprehensiveness, and relevance. Experiments show that HelpCOM outperforms baseline methods by 5.6% to 50.4% across syntactic (e.g., BLEU), semantic (e.g., SentenceBERT), and LLM-based evaluation metrics. A survey of 156 software practitioners further confirms that HelpCOM significantly improves the comprehensibility of code involving dependent methods, highlighting its potential to enhance documentation, maintainability, and developer productivity in large-scale systems.
+            </p>
+          </div>
+
+          
+        </section>
+
+        <section id="two" class="spotlights">
+          <div class="inner">
+            <header class="major">
+              <h3>Are Large Language Models a Threat to Programming Platforms? An Exploratory Study</h3>
+              <h4>Published in <a href="https://conf.researchr.org/home/esem-2024" target="_blank">ESEM 2024</a> (A Category Conference)</h4>
+              <h5>Paper Link: <a href="https://dl.acm.org/doi/10.1145/3674805.3686689" target="_blank">https://dl.acm.org/doi/10.1145/3674805.3686689</a></h5>
+            </header>
+            <p>
+            <b>Background:</b> Competitive programming platforms such as LeetCode, Codeforces, and HackerRank provide challenges to evaluate programming skills. Technical recruiters frequently utilize these platforms as a criterion for screening resumes. With the recent advent of advanced Large Language Models (LLMs) like ChatGPT, Gemini, and Meta AI, there is a need to assess their problem-solving ability on the programming platforms. <b>Aims:</b> This study aims to assess LLMs’ capability to solve diverse programming challenges across programming platforms with varying difficulty levels, providing insights into their performance in real-time and offline scenarios, comparing them to human programmers, and identifying potential threats to established norms in programming platforms. <b>Method:</b> This study utilized 98 problems from LeetCode and 126 from Codeforces, covering 15 categories and varying difficulty levels. Then, we participated in nine online contests from Codeforces and LeetCode. Finally, two certification tests were attempted on HackerRank to gain insights into LLMs’ real-time performance. Prompts were used to guide LLMs in solving problems, and iterative feedback mechanisms were employed. We also tried to find any possible correlation among the LLMs in different scenarios. <b>Results:</b> LLMs generally achieved higher success rates on LeetCode (e.g., ChatGPT at 71.43%) but faced challenges on Codeforces. While excelling in HackerRank certifications, they struggled in virtual contests, especially on Codeforces. Despite diverse performance trends, ChatGPT consistently performed well across categories, yet all LLMs struggled with harder problems and lower acceptance rates. In LeetCode archive problems, LLMs generally outperformed users in time efficiency and memory usage but exhibited moderate performance in live contests, particularly in harder Codeforces contests compared to humans. <b>Conclusions:</b> While not necessarily a threat, the performance of LLMs on programming platforms is indeed a cause for concern. With the prospect of more efficient models emerging in the future, programming platforms need to address this issue promptly.
+            </p>
+          </div>
+        </section>
+
+        
+        <!-- <section id="two" class="spotlights">
+          <section>
+            <a class="image">
+              <img
+                src="images/logo-aspnetmvc.png"
+                alt=""
+                data-position="center center"
+              />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>Backend</h3>
+                </header>
+                <p>
+                  We have used ASP.NET MVC as backend technology and used Microsoft SQL Server as database for the system.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <a class="image">
+              <img src="images/coreui.png" alt="" data-position="top center" />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>CoreUI</h3>
+                </header>
+                <p>
+                  For the frontend template, we have used CoreUI. 
+                  CoreUI admin dashboard delivers a bunch of responsive, customizable,
+                   and reusable components you need to create modern, beautiful, responsive apps.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <a class="image">
+              <img src="images/Highcharts-7-c2.jpg" alt="" data-position="25% 25%" />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>HiChartJs</h3>
+                </header>
+                <p>
+                  We used Highcharts for showing data interactively on dashboard.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <a class="image">
+              <img src="images/rotativa.png" alt="" data-position="top center" />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>Rotativa</h3>
+                </header>
+                <p>We had to do a lot of pdf generation for this website. For this 
+                  we have chosen a nuget called Rotativa! 
+                </p>
+              </div>
+            </div>
+          </section>
+        </section> --> 
+
+        <!-- Three -->
+        <!-- <section id="three">
+          <div class="inner">
+            <header class="major">
+              <h2>Gallery</h2>
+            </header>
+            <img
+              src="images/pwc1.png"
+              alt=""
+              width="98%"
+              style="padding-bottom: 5%;"
+            />
+            <img
+              src="images/pwc2.png"
+              alt=""
+              width="98%"
+              style="padding-bottom: 5%;"
+            />
+            <img
+              src="images/pwc3.png"
+              alt=""
+              width="98%"
+              style="padding-bottom: 5%;"
+            />
+            <img
+              src="images/pwc4.png"
+              alt=""
+              width="98%"
+              style="padding-bottom: 5%;"
+            />
+          </div>
+        </section>
+      </div> -->
+
+      <!-- Contact -->
+      <!-- <section id="contact">
+        <div class="inner">
+          <section>
+            <form method="post" action="#">
+              <div class="fields">
+                <div class="field half">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" />
+                </div>
+                <div class="field half">
+                  <label for="email">Email</label>
+                  <input type="text" name="email" id="email" />
+                </div>
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" rows="6"></textarea>
+                </div>
+              </div>
+              <ul class="actions">
+                <li>
+                  <input type="submit" value="Send Message" class="primary" />
+                </li>
+                <li><input type="reset" value="Clear" /></li>
+              </ul>
+            </form>
+          </section>
+          <section class="split">
+            <section>
+              <div class="contact-method">
+                <span class="icon solid alt fa-envelope"></span>
+                <h3>Email</h3>
+                <a href="#">information@untitled.tld</a>
+              </div>
+            </section>
+            <section>
+              <div class="contact-method">
+                <span class="icon solid alt fa-phone"></span>
+                <h3>Phone</h3>
+                <span>(000) 000-0000 x12387</span>
+              </div>
+            </section>
+            <section>
+              <div class="contact-method">
+                <span class="icon solid alt fa-home"></span>
+                <h3>Address</h3>
+                <span
+                  >1234 Somewhere Road #5432<br />
+                  Nashville, TN 00000<br />
+                  United States of America</span
+                >
+              </div>
+            </section>
+          </section>
+        </div>
+      </section>
+
+      
+      <footer id="footer">
+        <div class="inner">
+          <ul class="icons">
+            <li>
+              <a href="#" class="icon brands alt fa-twitter"
+                ><span class="label">Twitter</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands alt fa-facebook-f"
+                ><span class="label">Facebook</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands alt fa-instagram"
+                ><span class="label">Instagram</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands alt fa-github"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands alt fa-linkedin-in"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+          </ul>
+          <ul class="copyright">
+            <li>&copy; Untitled</li>
+            <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div> -->
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
